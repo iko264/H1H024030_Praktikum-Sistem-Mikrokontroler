@@ -52,7 +52,8 @@ void loop() {
 
 Jawaban:
 1. skema rangkaian 5 pin.
-    ![Skema Rangkaian Arduino](perulangan5pinLED.PNG)
+
+![Skema Rangkaian Arduino](perulangan5pinLED.PNG)
 2. Efek LED yang terlihat berjalan dari kiri ke kanan dibuat dengan menggunakan perulangan **for** yang melakukan penambahan nilai secara bertahap. Dari pin 2 hingga pin 7 dan di dalam loop led yang ada di pin tersebut dinyalakan (HIGH) selama durasi timer, dimatikan lalu lanjut kepin setelahnya. nahyang membuat terlihatdari kiri ke kanan karena perulangan dimulai dari pin 2 yag berada di kiri arduino ke bagian kanan 
 3. hal ini terjadi di loop berikutnya dimana pin dimulai dari 7 ke 2 dan melakukan decreement for (int ledPin = 7; ledPin >= 2; ledPin--) ini membuat perulangan terbalik dan led akan berjalan dari kanan arduino ke bagian kiri
 4. Program LED menyala tiga LED kanan dan tiga LED kiri secara bergantian
