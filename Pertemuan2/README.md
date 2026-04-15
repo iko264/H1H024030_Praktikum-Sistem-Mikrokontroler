@@ -200,4 +200,4 @@ void loop()
 ```
 penjelasan:
 - ditambah pin untuk satu tombol lagi 
-- penambahan perulangan untuk decrement dan untuk tombol satunya jadi datu untuk mengurangi dan satu untuk menambah
+- penambahan percabangan untuk decrement dan untuk tombol satunya jadi datu untuk mengurangi dan satu untuk menambah
